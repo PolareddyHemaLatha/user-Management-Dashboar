@@ -77,7 +77,7 @@
             </div>
 
             <div class="mx-5">
-              <h4 class="text-2xl font-semibold text-gray-700">200,521</h4>
+              <h4 class="text-2xl font-semibold text-gray-700">2,521</h4>
               <div class="text-gray-500">Total Orders</div>
             </div>
           </div>
@@ -110,7 +110,7 @@
             </div>
 
             <div class="mx-5">
-              <h4 class="text-2xl font-semibold text-gray-700">215,542</h4>
+              <h4 class="text-2xl font-semibold text-gray-700">2,542</h4>
               <div class="text-gray-500">Available Products</div>
             </div>
           </div>
@@ -345,13 +345,13 @@ interface User {
 }
 
 const testUser: User = {
-  name: "John Doe",
-  email: "john@example.com",
+  name: "Joe",
+  email: "joe@example.com",
   title: "Software Engineer",
-  title2: "Web dev",
+  title2: "Application Dev",
   status: "Active",
   role: "Owner",
-};
 
-const users = ref<User[]>([...Array(10).keys()].map(() => testUser));
+};
+const users = ref<User[]>([...Array(5).keys()].map(() => testUser));
 </script>

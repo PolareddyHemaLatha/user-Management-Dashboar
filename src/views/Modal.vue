@@ -61,10 +61,7 @@
 
           <!--Body-->
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            asperiores sint necessitatibus aspernatur laborum quod ad quibusdam
-            voluptate aliquid molestiae! Cumque voluptatem sint eum, quibusdam
-            cupiditate vero quis. Praesentium, et!
+           This is sample model...
           </p>
 
           <!--Footer-->
